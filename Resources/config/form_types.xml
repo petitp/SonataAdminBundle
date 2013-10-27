@@ -31,6 +31,10 @@
             <tag name="form.type" alias="sonata_type_model_hidden" />
         </service>
 
+        <service id="sonata.admin.form.type.model_autocomplete" class="Sonata\AdminBundle\Form\Type\ModelAutocompleteType">
+            <tag name="form.type" alias="sonata_type_model_autocomplete" />
+        </service>
+
         <service id="sonata.admin.form.type.array" class="Sonata\AdminBundle\Form\Type\ImmutableArrayType">
             <tag name="form.type" alias="sonata_type_immutable_array" />
         </service>
